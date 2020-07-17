@@ -32,7 +32,7 @@
                 android:text="R"
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
-            <android.support.v7.widget.AppCompatSeekBar
+            <androidx.appcompat.widget.AppCompatSeekBar
                 android:id="@+id/seekbar_red"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -65,7 +65,7 @@
                 android:text="G"
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
-            <android.support.v7.widget.AppCompatSeekBar
+            <androidx.appcompat.widget.AppCompatSeekBar
                 android:id="@+id/seekbar_green"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
@@ -98,7 +98,7 @@
                 android:text="B"
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Title" />
 
-            <android.support.v7.widget.AppCompatSeekBar
+            <androidx.appcompat.widget.AppCompatSeekBar
                 android:id="@+id/seekbar_blue"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"

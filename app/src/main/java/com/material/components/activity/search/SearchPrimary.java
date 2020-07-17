@@ -3,14 +3,12 @@ package com.material.components.activity.search;
 import android.content.Context;
 import android.graphics.PorterDuff;
 import android.os.Handler;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
-import android.support.v7.app.AppCompatActivity;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.AppCompatButton;
-import android.support.v7.widget.GridLayoutManager;
-import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.Toolbar;
+import androidx.appcompat.widget.AppCompatButton;
+import androidx.appcompat.widget.Toolbar;
 import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -18,19 +16,12 @@ import android.view.View;
 import android.view.inputmethod.EditorInfo;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.EditText;
-import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.material.components.R;
-import com.material.components.adapter.AdapterGridAlbums;
-import com.material.components.data.DataGenerator;
-import com.material.components.model.Image;
 import com.material.components.utils.Tools;
-import com.material.components.widget.SpacingItemDecoration;
-
-import java.util.List;
 
 public class SearchPrimary extends AppCompatActivity {
 

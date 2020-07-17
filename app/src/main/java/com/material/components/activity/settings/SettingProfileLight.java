@@ -1,9 +1,7 @@
 package com.material.components.activity.settings;
 
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.MenuItem;
-import android.widget.Toast;
 
 import com.material.components.R;
 import com.material.components.utils.Tools;

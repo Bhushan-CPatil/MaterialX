@@ -2,7 +2,7 @@ package com.material.components.data;
 
 import android.content.Context;
 import android.content.res.TypedArray;
-import android.support.v7.content.res.AppCompatResources;
+import androidx.appcompat.content.res.AppCompatResources;
 
 import com.material.components.R;
 import com.material.components.model.MusicAlbum;

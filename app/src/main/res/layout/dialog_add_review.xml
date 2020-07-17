@@ -67,7 +67,7 @@
         android:paddingLeft="@dimen/spacing_large"
         android:paddingRight="@dimen/spacing_large">
 
-        <android.support.v7.widget.AppCompatRatingBar
+        <androidx.appcompat.widget.AppCompatRatingBar
             style="@style/Yellow.AppCompatRatingBar"
             android:id="@+id/rating_bar"
             android:layout_width="wrap_content"
@@ -109,7 +109,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1" />
 
-        <android.support.v7.widget.AppCompatButton
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/bt_cancel"
             style="@style/Button.Accent.Borderless"
             android:layout_width="wrap_content"
@@ -117,7 +117,7 @@
             android:gravity="center"
             android:text="CANCEL" />
 
-        <android.support.v7.widget.AppCompatButton
+        <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/bt_submit"
             style="@style/Widget.AppCompat.Button.Borderless"
             android:layout_width="wrap_content"

@@ -1,15 +1,14 @@
 package com.material.components.activity.search;
 
 import android.content.Context;
-import android.graphics.PorterDuff;
 import android.os.Handler;
-import android.support.v7.app.ActionBar;
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.ActionBar;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.GridLayoutManager;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.Toolbar;
+
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+import androidx.appcompat.widget.Toolbar;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.view.KeyEvent;
@@ -30,8 +29,6 @@ import com.material.components.R;
 import com.material.components.adapter.AdapterSuggestionSearch;
 import com.material.components.utils.Tools;
 import com.material.components.utils.ViewAnimation;
-
-import java.util.ArrayList;
 
 public class SearchToolbarLight extends AppCompatActivity {
 
